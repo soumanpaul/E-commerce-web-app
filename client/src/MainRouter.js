@@ -18,6 +18,7 @@ import Product from './product/Product';
 import EditProduct from './product/EditProduct'
 import Cart from './cart/cart';
 import StripeConnect from './user/StripeConnect';
+import ShopOrders from './order/ShopOrders'
 
 class MainRouter extends Component {
   render() {
@@ -41,6 +42,7 @@ class MainRouter extends Component {
           <PrivateRoute path="/seller/:shopId/:productId/edit" component={EditProduct}/>
           <Route path="/cart" component={Cart}/>
           <Route path="/seller/stripe/connect" component={StripeConnect}/>
+          <PrivateRoute path="/seller/orders/:shop/:shopId" component={ShopOrders}/>
         </Switch>
       </div>
     );

@@ -7,8 +7,8 @@ import Typography from '@material-ui/core/Typography'
 import Icon from '@material-ui/core/Icon'
 import auth from '../auth/auth-helper'
 import cart from './cart-helper.js'
-// import PlaceOrder from './PlaceOrder'
-// import {Elements} from 'react-stripe-elements'
+import PlaceOrder from './PlaceOrder'
+import {Elements} from 'react-stripe-elements'
 
 const styles = theme => ({
   card: {
@@ -95,11 +95,11 @@ class Checkout extends Component {
                 <Icon color="error" className={classes.error}>error</Icon>
                 {this.state.error}</Typography>)
           }
-        {/* <div>
+        <div>
           <Elements>
             <PlaceOrder checkoutDetails={this.state.checkoutDetails} />
           </Elements>
-        </div> */}
+        </div>
       </Card>)
   }
 }
