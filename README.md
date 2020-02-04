@@ -38,7 +38,7 @@ API Documentatioin [here](https://github.com/soumanpaul/Developers-profile-fulls
 Extensive API documentation with examples [here](https://documenter.getpostman.com/view/5731747/SWLYDBiQ?version=latest#bb9e7694-8e53-4f33-b833-6dbab3727a3f)
 
 
-![](/public/images/output.gif)
+![](/market.png)
 
 ---
 
